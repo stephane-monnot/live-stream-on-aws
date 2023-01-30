@@ -334,7 +334,7 @@ export class LiveStreaming extends cdk.Stack {
     );
 
     const customResourceLambda = new lambda.Function(this, 'CustomResource', {
-      runtime: lambda.Runtime.NODEJS_12_X,
+      runtime: lambda.Runtime.NODEJS_14_X,
       handler: 'index.handler',
       description: 'Used to deploy custom resources and send AnonymousData',
       environment: {
@@ -358,6 +358,9 @@ export class LiveStreaming extends cdk.Stack {
         }, {
           id: 'W92',
           reason: 'This CustomResource does not need to define ReservedConcurrentExecutions to reserve simultaneous executions'
+        }, {
+          id: "AwsSolutions-L1",
+          reason: "The lambda function runs appropriate runtime and does not require the latest version."
         }]
       }
     };
