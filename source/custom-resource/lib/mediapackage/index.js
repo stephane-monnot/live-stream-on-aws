@@ -33,11 +33,11 @@ const createEndPoint = async (config) => {
             },
             DashPackage: {
                 ManifestWindowSeconds: 60,
-                MinBufferTimeSeconds: 30,
+                MinBufferTimeSeconds: 4,
                 MinUpdatePeriodSeconds: 15,
                 Profile: 'NONE',
                 SegmentDurationSeconds: 2,
-                SuggestedPresentationDelaySeconds: 25
+                SuggestedPresentationDelaySeconds: 2
             },
             MssPackage: {
                 ManifestWindowSeconds: 60,
