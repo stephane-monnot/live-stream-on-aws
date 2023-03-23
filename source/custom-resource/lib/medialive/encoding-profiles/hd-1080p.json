@@ -442,7 +442,7 @@
           "ScanType": "PROGRESSIVE",
           "Level": "H264_LEVEL_AUTO",
           "LookAheadRateControl": "HIGH",
-          "MaxBitrate": 4100000,
+          "MaxBitrate": 8200000,
           "NumRefFrames": 5,
           "ParControl": "SPECIFIED",
           "ParDenominator": 1,
