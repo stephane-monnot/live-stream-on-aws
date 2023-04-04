@@ -4,7 +4,7 @@
       "CodecSettings": {
         "AacSettings": {
           "InputType": "NORMAL",
-          "Bitrate": 96000,
+          "Bitrate": 128000,
           "CodingMode": "CODING_MODE_2_0",
           "RawFormat": "NONE",
           "Spec": "MPEG4",
@@ -22,7 +22,7 @@
       "CodecSettings": {
         "AacSettings": {
           "InputType": "NORMAL",
-          "Bitrate": 96000,
+          "Bitrate": 128000,
           "CodingMode": "CODING_MODE_2_0",
           "RawFormat": "NONE",
           "Spec": "MPEG4",
@@ -40,7 +40,7 @@
       "CodecSettings": {
         "AacSettings": {
           "InputType": "NORMAL",
-          "Bitrate": 96000,
+          "Bitrate": 128000,
           "CodingMode": "CODING_MODE_2_0",
           "RawFormat": "NONE",
           "Spec": "MPEG4",
@@ -58,7 +58,7 @@
       "CodecSettings": {
         "AacSettings": {
           "InputType": "NORMAL",
-          "Bitrate": 96000,
+          "Bitrate": 128000,
           "CodingMode": "CODING_MODE_2_0",
           "RawFormat": "NONE",
           "Spec": "MPEG4",
@@ -94,7 +94,7 @@
       "CodecSettings": {
         "AacSettings": {
           "InputType": "NORMAL",
-          "Bitrate": 96000,
+          "Bitrate": 192000,
           "CodingMode": "CODING_MODE_2_0",
           "RawFormat": "NONE",
           "Spec": "MPEG4",
@@ -205,7 +205,7 @@
           "BufFillPct": 90,
           "EntropyEncoding": "CAVLC",
           "FlickerAq": "ENABLED",
-          "FramerateControl": "SPECIFIED",
+          "FramerateControl": "INITIALIZE_FROM_SOURCE",
           "FramerateNumerator": 15,
           "FramerateDenominator": 1,
           "GopBReference": "ENABLED",
@@ -223,7 +223,7 @@
           "ParDenominator": 1,
           "ParNumerator": 1,
           "Profile": "MAIN",
-          "RateControlMode": "QVBR",
+          "RateControlMode": "CBR",
           "QvbrQualityLevel": 6,
           "Syntax": "DEFAULT",
           "SceneChangeDetect": "ENABLED",
@@ -268,7 +268,7 @@
           "ParDenominator": 1,
           "ParNumerator": 1,
           "Profile": "MAIN",
-          "RateControlMode": "QVBR",
+          "RateControlMode": "CBR",
           "QvbrQualityLevel": 7,
           "Syntax": "DEFAULT",
           "SceneChangeDetect": "ENABLED",
@@ -313,7 +313,7 @@
           "ParDenominator": 1,
           "ParNumerator": 1,
           "Profile": "MAIN",
-          "RateControlMode": "QVBR",
+          "RateControlMode": "CBR",
           "QvbrQualityLevel": 7,
           "Syntax": "DEFAULT",
           "SceneChangeDetect": "ENABLED",
@@ -358,7 +358,7 @@
           "ParDenominator": 1,
           "ParNumerator": 1,
           "Profile": "MAIN",
-          "RateControlMode": "QVBR",
+          "RateControlMode": "CBR",
           "QvbrQualityLevel": 7,
           "Syntax": "DEFAULT",
           "SceneChangeDetect": "ENABLED",
@@ -403,7 +403,7 @@
           "ParDenominator": 1,
           "ParNumerator": 1,
           "Profile": "MAIN",
-          "RateControlMode": "QVBR",
+          "RateControlMode": "CBR",
           "QvbrQualityLevel": 8,
           "Syntax": "DEFAULT",
           "SceneChangeDetect": "ENABLED",
@@ -440,7 +440,7 @@
           "GopSizeUnits": "SECONDS",
           "SubgopLength": "DYNAMIC",
           "ScanType": "PROGRESSIVE",
-          "Level": "H264_LEVEL_AUTO",
+          "Level": "H264_LEVEL_4_1",
           "LookAheadRateControl": "HIGH",
           "MaxBitrate": 8200000,
           "NumRefFrames": 5,
@@ -448,7 +448,7 @@
           "ParDenominator": 1,
           "ParNumerator": 1,
           "Profile": "HIGH",
-          "RateControlMode": "QVBR",
+          "RateControlMode": "CBR",
           "QvbrQualityLevel": 8,
           "Syntax": "DEFAULT",
           "SceneChangeDetect": "ENABLED",
