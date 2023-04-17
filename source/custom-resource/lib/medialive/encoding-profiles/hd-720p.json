@@ -4,7 +4,7 @@
       "CodecSettings": {
         "AacSettings": {
           "InputType": "NORMAL",
-          "Bitrate": 192000,
+          "Bitrate": 256000,
           "CodingMode": "CODING_MODE_2_0",
           "RawFormat": "NONE",
           "Spec": "MPEG4",
@@ -22,7 +22,7 @@
       "CodecSettings": {
         "AacSettings": {
           "InputType": "NORMAL",
-          "Bitrate": 192000,
+          "Bitrate": 256000,
           "CodingMode": "CODING_MODE_2_0",
           "RawFormat": "NONE",
           "Spec": "MPEG4",
@@ -40,7 +40,7 @@
       "CodecSettings": {
         "AacSettings": {
           "InputType": "NORMAL",
-          "Bitrate": 192000,
+          "Bitrate": 256000,
           "CodingMode": "CODING_MODE_2_0",
           "RawFormat": "NONE",
           "Spec": "MPEG4",
@@ -58,7 +58,7 @@
       "CodecSettings": {
         "AacSettings": {
           "InputType": "NORMAL",
-          "Bitrate": 192000,
+          "Bitrate": 256000,
           "CodingMode": "CODING_MODE_2_0",
           "RawFormat": "NONE",
           "Spec": "MPEG4",
@@ -76,7 +76,7 @@
       "CodecSettings": {
         "AacSettings": {
           "InputType": "NORMAL",
-          "Bitrate": 192000,
+          "Bitrate": 256000,
           "CodingMode": "CODING_MODE_2_0",
           "RawFormat": "NONE",
           "Spec": "MPEG4",
