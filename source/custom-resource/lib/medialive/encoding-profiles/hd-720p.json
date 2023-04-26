@@ -76,7 +76,7 @@
       "CodecSettings": {
         "AacSettings": {
           "InputType": "NORMAL",
-          "Bitrate": 256000,
+          "Bitrate": 320000,
           "CodingMode": "CODING_MODE_2_0",
           "RawFormat": "NONE",
           "Spec": "MPEG4",
