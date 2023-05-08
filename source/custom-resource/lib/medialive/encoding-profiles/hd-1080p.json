@@ -186,6 +186,28 @@
             "MediaPackageOutputSettings": {}
           },
           "VideoDescriptionName": "_1920x1080"
+        },
+        {
+          "AudioDescriptionNames": [
+            "audio_5l3zhb"
+          ],
+          "CaptionDescriptionNames": [],
+          "OutputName": "_1920x1080_4",
+          "OutputSettings": {
+            "MediaPackageOutputSettings": {}
+          },
+          "VideoDescriptionName": "_1920x1080_4"
+        },
+        {
+          "AudioDescriptionNames": [
+            "audio_5l3zhb"
+          ],
+          "CaptionDescriptionNames": [],
+          "OutputName": "_1920x1080_8",
+          "OutputSettings": {
+            "MediaPackageOutputSettings": {}
+          },
+          "VideoDescriptionName": "_1920x1080_8"
         }
       ]
     }
@@ -453,6 +475,94 @@
       },
       "Height": 1080,
       "Name": "_1920x1080",
+      "RespondToAfd": "NONE",
+      "Sharpness": 100,
+      "ScalingBehavior": "DEFAULT",
+      "Width": 1920
+    },
+    {
+      "CodecSettings": {
+        "H264Settings": {
+          "AfdSignaling": "NONE",
+          "ColorMetadata": "INSERT",
+          "AdaptiveQuantization": "HIGH",
+          "Bitrate": 4100000,
+          "BufSize": 8200000,
+          "BufFillPct": 90,
+          "EntropyEncoding": "CAVLC",
+          "FlickerAq": "ENABLED",
+          "FramerateControl": "SPECIFIED",
+          "FramerateNumerator": 25,
+          "FramerateDenominator": 1,
+          "GopBReference": "ENABLED",
+          "GopClosedCadence": 1,
+          "GopNumBFrames": 3,
+          "GopSize": 2,
+          "GopSizeUnits": "SECONDS",
+          "SubgopLength": "DYNAMIC",
+          "ScanType": "PROGRESSIVE",
+          "Level": "H264_LEVEL_AUTO",
+          "LookAheadRateControl": "HIGH",
+          "MaxBitrate": 4100000,
+          "NumRefFrames": 5,
+          "ParControl": "SPECIFIED",
+          "ParDenominator": 1,
+          "ParNumerator": 1,
+          "Profile": "HIGH",
+          "RateControlMode": "CBR",
+          "Syntax": "DEFAULT",
+          "SceneChangeDetect": "ENABLED",
+          "SpatialAq": "ENABLED",
+          "TemporalAq": "ENABLED",
+          "TimecodeInsertion": "DISABLED"
+        }
+      },
+      "Height": 1080,
+      "Name": "_1920x1080_4",
+      "RespondToAfd": "NONE",
+      "Sharpness": 100,
+      "ScalingBehavior": "DEFAULT",
+      "Width": 1920
+    },
+    {
+      "CodecSettings": {
+        "H264Settings": {
+          "AfdSignaling": "NONE",
+          "ColorMetadata": "INSERT",
+          "AdaptiveQuantization": "HIGH",
+          "Bitrate": 8200000,
+          "BufSize": 8200000,
+          "BufFillPct": 90,
+          "EntropyEncoding": "CAVLC",
+          "FlickerAq": "ENABLED",
+          "FramerateControl": "SPECIFIED",
+          "FramerateNumerator": 25,
+          "FramerateDenominator": 1,
+          "GopBReference": "ENABLED",
+          "GopClosedCadence": 1,
+          "GopNumBFrames": 3,
+          "GopSize": 2,
+          "GopSizeUnits": "SECONDS",
+          "SubgopLength": "DYNAMIC",
+          "ScanType": "PROGRESSIVE",
+          "Level": "H264_LEVEL_AUTO",
+          "LookAheadRateControl": "HIGH",
+          "MaxBitrate": 8200000,
+          "NumRefFrames": 5,
+          "ParControl": "SPECIFIED",
+          "ParDenominator": 1,
+          "ParNumerator": 1,
+          "Profile": "HIGH",
+          "RateControlMode": "CBR",
+          "Syntax": "DEFAULT",
+          "SceneChangeDetect": "ENABLED",
+          "SpatialAq": "ENABLED",
+          "TemporalAq": "ENABLED",
+          "TimecodeInsertion": "DISABLED"
+        }
+      },
+      "Height": 1080,
+      "Name": "_1920x1080_8",
       "RespondToAfd": "NONE",
       "Sharpness": 100,
       "ScalingBehavior": "DEFAULT",
